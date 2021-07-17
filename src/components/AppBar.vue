@@ -29,12 +29,14 @@
             <v-list-item-title>Home</v-list-item-title>
           </v-list-item>
 
-          <v-list-item>
-            <v-list-item-icon>
-              <v-icon>mdi-account</v-icon>
-            </v-list-item-icon>
-            <v-list-item-title>Pokemons</v-list-item-title>
+          <router-link to="/pokemons">
+              <v-list-item>
+              <v-list-item-icon>
+                <v-icon>mdi-account</v-icon>
+              </v-list-item-icon>
+              <v-list-item-title>Pokemons</v-list-item-title>
           </v-list-item>
+          </router-link>
         </v-list-item-group>
       </v-list>
     </v-navigation-drawer>
